@@ -22,7 +22,7 @@ const ProfileCard = ({ name, experience, rating, details, subjects, setProfileDa
     <div className="profile-card">
       <div className="profile-picture">
        
-        <img src='https://media.licdn.com/dms/image/D4D35AQHrfNOzhlIpwQ/profile-framedphoto-shrink_400_400/0/1677159339103?e=1697486400&v=beta&t=aHrNYC5pKf9KVsHwkcsQ53RTDw59bekjuBiBNfbgrIc'/>
+        <img src='https://media.licdn.com/dms/image/D4D35AQHrfNOzhlIpwQ/profile-framedphoto-shrink_400_400/0/1677159339103?e=1697486400&v=beta&t=aHrNYC5pKf9KVsHwkcsQ53RTDw59bekjuBiBNfbgrIc' alt='profile-pic'/>
       </div>
       <div className="profile-info">
         <h2>{name}, {experience}</h2>
