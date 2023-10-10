@@ -1,5 +1,5 @@
 // store/store.js
-import { createStore, applyMiddleware, combineReducers } from 'redux';
+import { createStore, applyMiddleware} from 'redux';
 import thunk from 'redux-thunk'; // If you want to use thunk middleware
 import rootReducer from '../reducers/reducers'; // Import your root reducer
 
